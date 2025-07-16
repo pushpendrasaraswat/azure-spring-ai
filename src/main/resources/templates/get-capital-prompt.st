@@ -1,0 +1,1 @@
+What is the capital of {place}? provide capital name only , do not add any other words around that. if you are not able to find the capital,say : I am not able to find capital for place : {place}.

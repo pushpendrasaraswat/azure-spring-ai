@@ -1,0 +1,22 @@
+spring:
+  application:
+    name : Spring-AI
+
+  ai:
+    azure:
+      openai:
+        api-key: ${API_KEY}
+        endpoint: https://ai-proxy.lab.epam.com/
+        chat:
+          options:
+            deployment-name: gpt-4o
+        image:
+          enabled: true
+          api-key: ${API_KEY}
+          endpoint: https://ai-proxy.lab.epam.com/
+          options:
+            model: dall-e-3 # or dall-e-2
+            deployment-name: dall-e-3 # or your deployment name
+
+  ninja:
+    api-key: ${NINJA_KEY}

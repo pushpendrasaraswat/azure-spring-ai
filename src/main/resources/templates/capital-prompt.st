@@ -1,0 +1,1 @@
+What is the capital of {place}? {format}
